@@ -165,7 +165,7 @@ const Header = ({ cardItem, setCardItem }) => {
                   className="text-black font-bold w-8 h-8 flex justify-center items-center hover:bg-slate-300 active:bg-red-300 hover:rounded-full "
                   onClick={() => setCartOpen(false)}
                 >
-                  X
+                  <i className="fa-solid fa-xmark"></i>
                 </button>
               </div>
               {(cardItem || []).length === 0 ? (
@@ -188,7 +188,7 @@ const Header = ({ cardItem, setCardItem }) => {
                           className="text-red-500 font-bold"
                           onClick={() => removeItem(item.id)}
                         >
-                          X
+                          <i className="fa-solid fa-xmark"></i>
                         </button>
                       </div>
                     ))}
@@ -258,11 +258,11 @@ const Header = ({ cardItem, setCardItem }) => {
               className="absolute top-2 right-2 text-black text-lg font-bold"
               onClick={() => setModalOpen(false)}
             >
-              X
+              <i className="fa-solid fa-xmark"></i>
             </button>
             <h2 className="text-xl font-bold mb-4 text-center">Pay QR Code</h2>
             <img
-              src="/src/assets/qr2.jpg"
+              src="https://static.wixstatic.com/media/1a7eb3_7c2a841b00bc4b7885dcb69cd58af259~mv2.jpg/v1/fill/w_560,h_560,al_c,lg_1,q_80/1a7eb3_7c2a841b00bc4b7885dcb69cd58af259~mv2.jpg"
               alt="QR Code"
               className="w-full h-auto object-contain"
             />
@@ -278,7 +278,7 @@ const Header = ({ cardItem, setCardItem }) => {
               className="absolute top-2 right-2 text-black text-lg font-bold"
               onClick={() => setUserModalOpen(false)}
             >
-              <i class="fa-solid fa-xmark hover:bg-red-400 w-[30px] h-[30px] flex justify-center items-center active:text-white"></i>
+              <i className="fa-solid fa-xmark hover:bg-red-400 w-[30px] h-[30px] flex justify-center items-center active:text-white"></i>
             </button>
             {loggedInUser ? (
               <div className="text-center">
