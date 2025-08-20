@@ -17,7 +17,7 @@ const Banner = () => {
   const slides = [
     {
       id: 1,
-      img: "/src/assets/banners1.jpg",
+      img: "https://st2.depositphotos.com/1144472/10560/i/450/depositphotos_105604866-stock-photo-woman-in-casual-clothing-with.jpg",
       text: (
         <div className="text-center md:text-left space-y-2 px-4 !z-50">
           <h5 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white drop-shadow-lg">

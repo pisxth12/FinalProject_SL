@@ -262,7 +262,7 @@ const Header = ({ cardItem, setCardItem }) => {
             </button>
             <h2 className="text-xl font-bold mb-4 text-center">Pay QR Code</h2>
             <img
-              src="/src/assets/Qr.jpg"
+              src="/src/assets/qr2.jpg"
               alt="QR Code"
               className="w-full h-auto object-contain"
             />
