@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200" viewBox="0 0 600 200">
+  <style>
+    .drip-text {
+      font-family: Arial, sans-serif;
+      font-weight: 900;
+      font-size: 140px;
+      fill: black;
+    }
+  </style>
+  <text x="50" y="150" class="drip-text">LEAK</text>
+  <!-- Drips -->
+  <path d="M120 160 Q115 190 130 200 Q145 190 140 160 Z" fill="black"/>
+  <path d="M250 160 Q245 185 260 200 Q275 185 270 160 Z" fill="black"/>
+  <path d="M390 160 Q385 190 400 200 Q415 190 410 160 Z" fill="black"/>
+</svg>

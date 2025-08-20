@@ -92,8 +92,8 @@ const Header = ({ cardItem, setCardItem }) => {
       <div className="container mx-auto flex justify-between items-center p-4">
         <h1 className="text-2xl font-bold cursor-pointer">
           <img
-            className="w-[100px] hover:animate-pulse"
-            src="/src/assets/logo.png"
+            className="w-[150px] hover:animate-pulse"
+            src="/src/assets/logo.svg"
             alt="img"
           />
         </h1>

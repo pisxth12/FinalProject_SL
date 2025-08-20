@@ -17,7 +17,7 @@ const Banner = () => {
   const slides = [
     {
       id: 1,
-      img: "/src/assets/banner1.jpg",
+      img: "/src/assets/banners1.jpg",
       text: (
         <div className="text-center md:text-left space-y-2 px-4 !z-50">
           <h5 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
@@ -37,7 +37,7 @@ const Banner = () => {
     },
     {
       id: 2,
-      img: "/src/assets/banner2.jpg",
+      img: "/src/assets/bannners2.png",
       text: (
         <div className="text-center md:text-left right-0 space-y-2 px-4">
           <h5 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
@@ -57,7 +57,7 @@ const Banner = () => {
     },
     {
       id: 3,
-      img: "/src/assets/banner3.jpg",
+      img: "/src/assets/banners3.png",
       text: (
         <div className="text-center md:text-left px-4">
           <h5 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
