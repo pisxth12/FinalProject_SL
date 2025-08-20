@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaSearch, FaUser, FaHeart } from "react-icons/fa";
 import { NavLink, useNavigate } from "react-router-dom";
+import logo from '../assets/logo.svg' 
 
 const Header = ({ cardItem, setCardItem }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -93,7 +94,7 @@ const Header = ({ cardItem, setCardItem }) => {
         <h1 className="text-2xl font-bold cursor-pointer">
           <img
             className="w-[150px] hover:animate-pulse"
-            src="/src/assets/logo.svg"
+            src={logo}
             alt="img"
           />
         </h1>
