@@ -37,7 +37,7 @@ const Banner = () => {
     },
     {
       id: 2,
-      img: "/src/assets/bannners2.png",
+      img: "https://www.chivalrymen.com/wp-content/uploads/2022/04/Well-Dressed-Man.jpg",
       text: (
         <div className="text-center md:text-left right-0 space-y-2 px-4">
           <h5 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
@@ -55,9 +55,10 @@ const Banner = () => {
         </div>
       ),
     },
+    
     {
       id: 3,
-      img: "/src/assets/banners3.png",
+      img: "https://bannerjewellery.com/cdn/shop/collections/Ring.jpg?v=1722441807&width=2048",
       text: (
         <div className="text-center md:text-left px-4">
           <h5 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white drop-shadow-lg">
