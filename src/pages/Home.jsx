@@ -1,23 +1,4 @@
-// import React from 'react'
-// import Banner from '../components/Banner'
-// import Shop from './Shop'
-// import Feature from './Feature'
-// import Contact from './Contact'
 
-// const Home = () => {
-//   return (
-//     <div className=' bg-black'>
-//       <Banner/>
-//       <Shop/>
-//       <Feature/>
-//       <Contact/>
-
-      
-//     </div>
-//   )
-// }
-
-// export default Home
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Banner from "../components/Banner"
@@ -55,7 +36,7 @@ const Home = ({ cardItem, setCardItem }) => {
       <h1 className="title_style text-3xl font-bold mb-6 text-center">Featured Products  <div className="wrap_border"><div className="border1"></div><div className="border2"></div></div></h1>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {products.map((product) => (
-          <div key={product.id} className="bg-white rounded-xl shadow hover:shadow-lg transition p-4 flex flex-col">
+          <div key={product.id} className="rounded-xl shadow hover:shadow-lg transition p-4 flex flex-col  sm:max-w-none max-w-[250px] mx-auto">
             <Link to={`/product/${product.id}`} className="flex-1 flex flex-col">
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center">
                 <img src={product.image} alt={product.title} className="h-32 object-contain" />

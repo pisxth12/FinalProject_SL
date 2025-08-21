@@ -86,7 +86,7 @@ const Shop = ({ cardItem, setCardItem }) => {
         {filtered.map((product) => (
           <div
             key={product.id}
-            className="bg-white rounded-xl shadow hover:shadow-lg transition p-4 flex flex-col"
+            className=" rounded-xl shadow hover:shadow-lg transition p-4 flex flex-col sm:max-w-none max-w-[250px] mx-auto bg-white"
           >
             <Link to={`/product/${product.id}`} className="flex-1 flex flex-col">
               <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center">

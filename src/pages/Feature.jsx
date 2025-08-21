@@ -30,7 +30,7 @@ const features = [
 
 const Feature = () => {
   return (
-    <div className="min-h-screen bg-slate-50 p-6 mt-20">
+    <div className="min-h-screen bg-slate-50 p-6 ">
       <h1 className="title_style text-3xl font-bold text-center mb-15">Our Features  <div className="wrap_border"><div className="border1"></div><div className="border2"></div></div></h1>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-20">
         {features.map((feature) => (
